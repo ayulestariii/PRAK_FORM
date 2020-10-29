@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Regeistrasi Akun</title><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="nama">Nama Lengkap:</label>  
+              <div class="col-md-4">
+              <input id="nama" name="nama" type="text" placeholder="" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <label class="col-md-4 control-label" for="email">Email:</label>
+            <div clss="col-md-4">
+            <input id="email" email="email" type="text" placeholde="" class="form-control input-md" required">
+
+            </div>
+        </div>
+
+        
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="gender">Jenis Kelamin:</label>
+              <div class="col-md-4"> 
+                <label class="radio-inline" for="gender-0">
+                  <input type="radio" name="gender" id="gender-0" value="L" checked="checked">
+                  Laki-laki
+                </label> 
+                <label class="radio-inline" for="gender-1">
+                  <input type="radio" name="gender" id="gender-1" value="P">
+                  Perempuan
+                </label>
+              </div>
+            </div>
+            
+            <!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="pekerjaan">Pekerjaan:</label>
+              <div class="col-md-4">
+                <select id="pekerjaan" name="pekerjaan" class="form-control">
+                </select>
+              </div>
+            </div>
+            
+            <!-- File Button --> 
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Masukkan File">Masukkan File:</label>
+              <div class="col-md-4">
+                <input id="Masukkan File" name="Masukkan File" class="input-file" type="file">
+              </div>
+            </div>
+            
+            <!-- Appended checkbox -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="pesanan">Pesanan:</label>
+              <div class="col-md-4">
+                <div class="input-group">
+                  <input id="tanggal pesanan" name="tanggal pesanan" class="form-control" type="text" placeholder="" required="">
+                        <span class="input-group-addon">     
+                      <input type="checkbox">     
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
+            <!-- Textarea -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="registrasi marketing">Registrasi Marketing:</label>
+              <div class="col-md-4">                     
+                <textarea class="form-control" id="registrasi marketing" name="registrasi marketing"></textarea>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="proses"></label>
+              <div class="col-md-4">
+                <button id="proses" name="proses" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>            
+                     </body>
+                        </html>
